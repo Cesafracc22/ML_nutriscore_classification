@@ -1,0 +1,44 @@
+{
+  "model_name": "LogisticRegression",
+  "hyperparameters": {
+    "C": 1.0,
+    "solver": "lbfgs",
+    "max_iter": 1000,
+    "class_weight": "balanced",
+    "random_state": 42
+  },
+  "training_history": {
+    "train_metrics": {
+      "accuracy": 0.7016454463229667
+    },
+    "val_metrics": {
+      "accuracy": 0.7048350875294245,
+      "precision_macro": 0.6807534492114232,
+      "precision_weighted": 0.7120506422710637,
+      "recall_macro": 0.6881857331926694,
+      "recall_weighted": 0.7048350875294245,
+      "f1_macro": 0.6833274201308986,
+      "f1_weighted": 0.7076117010876432
+    },
+    "test_metrics": {
+      "accuracy": 0.700487012987013,
+      "precision_macro": 0.6771310505584255,
+      "precision_weighted": 0.7079686143511585,
+      "recall_macro": 0.6844435672053724,
+      "recall_weighted": 0.700487012987013,
+      "f1_macro": 0.6796468568690959,
+      "f1_weighted": 0.7033896897691084
+    },
+    "cv_scores": {},
+    "training_time": 1.642021,
+    "created_at": "2026-02-17T20:59:05.420949",
+    "last_trained": "2026-02-17T20:59:07.062991"
+  },
+  "classes": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+  ]
+}

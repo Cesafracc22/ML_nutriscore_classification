@@ -1,0 +1,323 @@
+{
+  "model": "svm",
+  "best_score": 0.8112,
+  "best_params": {
+    "C": 32,
+    "gamma": 0.03125,
+    "kernel": "rbf"
+  },
+  "cv_folds": 5,
+  "timestamp": "2026-02-12T12:00:00.000000",
+  "overfitting_threshold": 0.05,
+  "best_overfit_gap": 0.0668,
+  "best_is_overfitting": true,
+  "confusion_matrix_labels": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+  ],
+  "all_combinations": [
+    {
+      "params": {
+        "C": 0.03125,
+        "gamma": 3.0517578125e-05,
+        "kernel": "rbf"
+      },
+      "mean_train_score": 0.086,
+      "std_train_score": 0.001,
+      "mean_test_score": 0.0862,
+      "std_test_score": 0.0012,
+      "overfit_gap": -0.0002,
+      "is_overfitting": false,
+      "rank_test_score": 20,
+      "confusion_matrix": []
+    },
+    {
+      "params": {
+        "C": 0.03125,
+        "gamma": 0.0009765625,
+        "kernel": "rbf"
+      },
+      "mean_train_score": 0.532,
+      "std_train_score": 0.0008,
+      "mean_test_score": 0.5318,
+      "std_test_score": 0.0034,
+      "overfit_gap": 0.0002,
+      "is_overfitting": false,
+      "rank_test_score": 19,
+      "confusion_matrix": []
+    },
+    {
+      "params": {
+        "C": 0.03125,
+        "gamma": 0.03125,
+        "kernel": "rbf"
+      },
+      "mean_train_score": 0.646,
+      "std_train_score": 0.0012,
+      "mean_test_score": 0.6418,
+      "std_test_score": 0.0023,
+      "overfit_gap": 0.0042,
+      "is_overfitting": false,
+      "rank_test_score": 18,
+      "confusion_matrix": []
+    },
+    {
+      "params": {
+        "C": 0.03125,
+        "gamma": 1,
+        "kernel": "rbf"
+      },
+      "mean_train_score": 0.4042,
+      "std_train_score": 0.0029,
+      "mean_test_score": 0.3924,
+      "std_test_score": 0.0031,
+      "overfit_gap": 0.0118,
+      "is_overfitting": true,
+      "rank_test_score": 17,
+      "confusion_matrix": []
+    },
+    {
+      "params": {
+        "C": 0.03125,
+        "gamma": 32,
+        "kernel": "rbf"
+      },
+      "mean_train_score": 0.1268,
+      "std_train_score": 0.0018,
+      "mean_test_score": 0.1262,
+      "std_test_score": 0.0022,
+      "overfit_gap": 0.0006,
+      "is_overfitting": false,
+      "rank_test_score": 16,
+      "confusion_matrix": []
+    },
+    {
+      "params": {
+        "C": 1,
+        "gamma": 3.0517578125e-05,
+        "kernel": "rbf"
+      },
+      "mean_train_score": 0.5324,
+      "std_train_score": 0.0014,
+      "mean_test_score": 0.5318,
+      "std_test_score": 0.0026,
+      "overfit_gap": 0.0006,
+      "is_overfitting": false,
+      "rank_test_score": 15,
+      "confusion_matrix": []
+    },
+    {
+      "params": {
+        "C": 1,
+        "gamma": 0.0009765625,
+        "kernel": "rbf"
+      },
+      "mean_train_score": 0.6576,
+      "std_train_score": 0.0022,
+      "mean_test_score": 0.6548,
+      "std_test_score": 0.0028,
+      "overfit_gap": 0.0028,
+      "is_overfitting": false,
+      "rank_test_score": 14,
+      "confusion_matrix": []
+    },
+    {
+      "params": {
+        "C": 1,
+        "gamma": 0.03125,
+        "kernel": "rbf"
+      },
+      "mean_train_score": 0.8022,
+      "std_train_score": 0.001,
+      "mean_test_score": 0.7832,
+      "std_test_score": 0.0046,
+      "overfit_gap": 0.019,
+      "is_overfitting": true,
+      "rank_test_score": 4,
+      "confusion_matrix": []
+    },
+    {
+      "params": {
+        "C": 1,
+        "gamma": 1,
+        "kernel": "rbf"
+      },
+      "mean_train_score": 0.8974,
+      "std_train_score": 0.0005,
+      "mean_test_score": 0.7168,
+      "std_test_score": 0.0114,
+      "overfit_gap": 0.1806,
+      "is_overfitting": true,
+      "rank_test_score": 8,
+      "confusion_matrix": []
+    },
+    {
+      "params": {
+        "C": 1,
+        "gamma": 32,
+        "kernel": "rbf"
+      },
+      "mean_train_score": 0.9844,
+      "std_train_score": 0.0007,
+      "mean_test_score": 0.4508,
+      "std_test_score": 0.0192,
+      "overfit_gap": 0.5336,
+      "is_overfitting": true,
+      "rank_test_score": 12,
+      "confusion_matrix": []
+    },
+    {
+      "params": {
+        "C": 32,
+        "gamma": 3.0517578125e-05,
+        "kernel": "rbf"
+      },
+      "mean_train_score": 0.6402,
+      "std_train_score": 0.0028,
+      "mean_test_score": 0.6396,
+      "std_test_score": 0.0088,
+      "overfit_gap": 0.0006,
+      "is_overfitting": false,
+      "rank_test_score": 13,
+      "confusion_matrix": []
+    },
+    {
+      "params": {
+        "C": 32,
+        "gamma": 0.0009765625,
+        "kernel": "rbf"
+      },
+      "mean_train_score": 0.7678,
+      "std_train_score": 0.0005,
+      "mean_test_score": 0.7632,
+      "std_test_score": 0.0052,
+      "overfit_gap": 0.0046,
+      "is_overfitting": false,
+      "rank_test_score": 5,
+      "confusion_matrix": []
+    },
+    {
+      "params": {
+        "C": 32,
+        "gamma": 0.03125,
+        "kernel": "rbf"
+      },
+      "mean_train_score": 0.878,
+      "std_train_score": 0.0004,
+      "mean_test_score": 0.8112,
+      "std_test_score": 0.0024,
+      "overfit_gap": 0.0668,
+      "is_overfitting": false,
+      "rank_test_score": 1,
+      "confusion_matrix": []
+    },
+    {
+      "params": {
+        "C": 32,
+        "gamma": 1,
+        "kernel": "rbf"
+      },
+      "mean_train_score": 0.9742,
+      "std_train_score": 0.0007,
+      "mean_test_score": 0.7494,
+      "std_test_score": 0.0112,
+      "overfit_gap": 0.2248,
+      "is_overfitting": true,
+      "rank_test_score": 6,
+      "confusion_matrix": []
+    },
+    {
+      "params": {
+        "C": 32,
+        "gamma": 32,
+        "kernel": "rbf"
+      },
+      "mean_train_score": 0.991,
+      "std_train_score": 0.0004,
+      "mean_test_score": 0.4704,
+      "std_test_score": 0.0232,
+      "overfit_gap": 0.5206,
+      "is_overfitting": true,
+      "rank_test_score": 10,
+      "confusion_matrix": []
+    },
+    {
+      "params": {
+        "C": 1024,
+        "gamma": 3.0517578125e-05,
+        "kernel": "rbf"
+      },
+      "mean_train_score": 0.7106,
+      "std_train_score": 0.0011,
+      "mean_test_score": 0.7092,
+      "std_test_score": 0.0024,
+      "overfit_gap": 0.0014,
+      "is_overfitting": false,
+      "rank_test_score": 9,
+      "confusion_matrix": []
+    },
+    {
+      "params": {
+        "C": 1024,
+        "gamma": 0.0009765625,
+        "kernel": "rbf"
+      },
+      "mean_train_score": 0.8096,
+      "std_train_score": 0.0005,
+      "mean_test_score": 0.796,
+      "std_test_score": 0.0016,
+      "overfit_gap": 0.0136,
+      "is_overfitting": true,
+      "rank_test_score": 3,
+      "confusion_matrix": []
+    },
+    {
+      "params": {
+        "C": 1024,
+        "gamma": 0.03125,
+        "kernel": "rbf"
+      },
+      "mean_train_score": 0.9282,
+      "std_train_score": 0.0004,
+      "mean_test_score": 0.8042,
+      "std_test_score": 0.0028,
+      "overfit_gap": 0.124,
+      "is_overfitting": true,
+      "rank_test_score": 2,
+      "confusion_matrix": []
+    },
+    {
+      "params": {
+        "C": 1024,
+        "gamma": 1,
+        "kernel": "rbf"
+      },
+      "mean_train_score": 0.9882,
+      "std_train_score": 0.0004,
+      "mean_test_score": 0.72,
+      "std_test_score": 0.0204,
+      "overfit_gap": 0.2682,
+      "is_overfitting": true,
+      "rank_test_score": 7,
+      "confusion_matrix": []
+    },
+    {
+      "params": {
+        "C": 1024,
+        "gamma": 32,
+        "kernel": "rbf"
+      },
+      "mean_train_score": 0.9928,
+      "std_train_score": 0.0003,
+      "mean_test_score": 0.4242,
+      "std_test_score": 0.0304,
+      "overfit_gap": 0.5686,
+      "is_overfitting": true,
+      "rank_test_score": 16,
+      "confusion_matrix": []
+    }
+  ]
+}

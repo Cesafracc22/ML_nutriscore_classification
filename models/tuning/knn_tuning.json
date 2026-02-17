@@ -1,0 +1,737 @@
+{
+  "model": "knn",
+  "best_score": 0.7490850110909015,
+  "best_params": {
+    "metric": "euclidean",
+    "n_neighbors": 7,
+    "weights": "distance"
+  },
+  "cv_folds": 5,
+  "timestamp": "2026-02-12T15:59:17.425510",
+  "overfitting_threshold": 0.05,
+  "best_overfit_gap": 0.2427759333804831,
+  "best_is_overfitting": true,
+  "confusion_matrix_labels": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+  ],
+  "all_combinations": [
+    {
+      "params": {
+        "metric": "euclidean",
+        "n_neighbors": 3,
+        "weights": "uniform"
+      },
+      "mean_train_score": 0.8470941895257342,
+      "std_train_score": 0.00047754890202363336,
+      "mean_test_score": 0.7283999600112943,
+      "std_test_score": 0.0024305903482340742,
+      "overfit_gap": 0.11869422951443998,
+      "is_overfitting": true,
+      "rank_test_score": 8,
+      "confusion_matrix": [
+        [
+          20427,
+          2688,
+          1722,
+          147,
+          89
+        ],
+        [
+          4312,
+          11515,
+          3853,
+          439,
+          140
+        ],
+        [
+          3146,
+          3727,
+          24167,
+          4600,
+          596
+        ],
+        [
+          593,
+          844,
+          4928,
+          32709,
+          4515
+        ],
+        [
+          246,
+          325,
+          1143,
+          5025,
+          40567
+        ]
+      ]
+    },
+    {
+      "params": {
+        "metric": "euclidean",
+        "n_neighbors": 3,
+        "weights": "distance"
+      },
+      "mean_train_score": 0.9910313758358591,
+      "std_train_score": 0.0004958904177824534,
+      "mean_test_score": 0.7416014041080918,
+      "std_test_score": 0.003035722329476484,
+      "overfit_gap": 0.24942997172776726,
+      "is_overfitting": true,
+      "rank_test_score": 4,
+      "confusion_matrix": [
+        [
+          19815,
+          2915,
+          2014,
+          214,
+          115
+        ],
+        [
+          3380,
+          11963,
+          4184,
+          550,
+          182
+        ],
+        [
+          2094,
+          3486,
+          25041,
+          4867,
+          748
+        ],
+        [
+          359,
+          517,
+          4574,
+          33480,
+          4659
+        ],
+        [
+          171,
+          235,
+          888,
+          5042,
+          40970
+        ]
+      ]
+    },
+    {
+      "params": {
+        "metric": "euclidean",
+        "n_neighbors": 5,
+        "weights": "uniform"
+      },
+      "mean_train_score": 0.8136389066230137,
+      "std_train_score": 0.0008199857981598932,
+      "mean_test_score": 0.7329282494047765,
+      "std_test_score": 0.0023168084587050276,
+      "overfit_gap": 0.08071065721823723,
+      "is_overfitting": true,
+      "rank_test_score": 7,
+      "confusion_matrix": [
+        [
+          20446,
+          2635,
+          1733,
+          145,
+          114
+        ],
+        [
+          4086,
+          11575,
+          3961,
+          478,
+          159
+        ],
+        [
+          2777,
+          3632,
+          24504,
+          4755,
+          568
+        ],
+        [
+          481,
+          613,
+          4978,
+          33040,
+          4477
+        ],
+        [
+          149,
+          242,
+          1140,
+          5437,
+          40338
+        ]
+      ]
+    },
+    {
+      "params": {
+        "metric": "euclidean",
+        "n_neighbors": 5,
+        "weights": "distance"
+      },
+      "mean_train_score": 0.9916828818874291,
+      "std_train_score": 0.0002838091832034625,
+      "mean_test_score": 0.7466897478705906,
+      "std_test_score": 0.0025350408376722585,
+      "overfit_gap": 0.24499313401683853,
+      "is_overfitting": true,
+      "rank_test_score": 2,
+      "confusion_matrix": [
+        [
+          20081,
+          2655,
+          2013,
+          191,
+          133
+        ],
+        [
+          3414,
+          11845,
+          4263,
+          546,
+          191
+        ],
+        [
+          2061,
+          3165,
+          25383,
+          4928,
+          699
+        ],
+        [
+          331,
+          441,
+          4441,
+          33815,
+          4561
+        ],
+        [
+          133,
+          195,
+          887,
+          5128,
+          40963
+        ]
+      ]
+    },
+    {
+      "params": {
+        "metric": "euclidean",
+        "n_neighbors": 7,
+        "weights": "uniform"
+      },
+      "mean_train_score": 0.7948681815084394,
+      "std_train_score": 0.0006804189140577463,
+      "mean_test_score": 0.7331020883098025,
+      "std_test_score": 0.0017829283394911195,
+      "overfit_gap": 0.06176609319863691,
+      "is_overfitting": true,
+      "rank_test_score": 6,
+      "confusion_matrix": [
+        [
+          20342,
+          2516,
+          1914,
+          180,
+          121
+        ],
+        [
+          3972,
+          11335,
+          4254,
+          516,
+          182
+        ],
+        [
+          2613,
+          3401,
+          24691,
+          4898,
+          633
+        ],
+        [
+          470,
+          555,
+          4749,
+          33306,
+          4509
+        ],
+        [
+          173,
+          237,
+          1087,
+          5482,
+          40327
+        ]
+      ]
+    },
+    {
+      "params": {
+        "metric": "euclidean",
+        "n_neighbors": 7,
+        "weights": "distance"
+      },
+      "mean_train_score": 0.9918609444713846,
+      "std_train_score": 0.0001620443823089913,
+      "mean_test_score": 0.7490850110909015,
+      "std_test_score": 0.0026969917809823805,
+      "overfit_gap": 0.2427759333804831,
+      "is_overfitting": true,
+      "rank_test_score": 1,
+      "confusion_matrix": [
+        [
+          20201,
+          2529,
+          2007,
+          199,
+          137
+        ],
+        [
+          3457,
+          11722,
+          4338,
+          543,
+          199
+        ],
+        [
+          2110,
+          2951,
+          25612,
+          4882,
+          681
+        ],
+        [
+          352,
+          440,
+          4297,
+          34070,
+          4430
+        ],
+        [
+          150,
+          186,
+          915,
+          5095,
+          40960
+        ]
+      ]
+    },
+    {
+      "params": {
+        "metric": "euclidean",
+        "n_neighbors": 15,
+        "weights": "uniform"
+      },
+      "mean_train_score": 0.756879655906539,
+      "std_train_score": 0.000639201202352594,
+      "mean_test_score": 0.7217817715776687,
+      "std_test_score": 0.0016555642426515581,
+      "overfit_gap": 0.0350978843288704,
+      "is_overfitting": false,
+      "rank_test_score": 9,
+      "confusion_matrix": [
+        [
+          20121,
+          2346,
+          2246,
+          217,
+          143
+        ],
+        [
+          4051,
+          10567,
+          4824,
+          617,
+          200
+        ],
+        [
+          2650,
+          3069,
+          24486,
+          5317,
+          714
+        ],
+        [
+          512,
+          477,
+          4764,
+          33219,
+          4617
+        ],
+        [
+          160,
+          232,
+          1134,
+          5888,
+          39892
+        ]
+      ]
+    },
+    {
+      "params": {
+        "metric": "euclidean",
+        "n_neighbors": 15,
+        "weights": "distance"
+      },
+      "mean_train_score": 0.9921024581125273,
+      "std_train_score": 7.807417202001811e-05,
+      "mean_test_score": 0.7453727140137011,
+      "std_test_score": 0.0026515237590959747,
+      "overfit_gap": 0.2467297440988262,
+      "is_overfitting": true,
+      "rank_test_score": 3,
+      "confusion_matrix": [
+        [
+          20241,
+          2289,
+          2175,
+          212,
+          156
+        ],
+        [
+          3496,
+          11331,
+          4638,
+          586,
+          208
+        ],
+        [
+          2213,
+          2657,
+          25558,
+          5098,
+          710
+        ],
+        [
+          412,
+          387,
+          4261,
+          34151,
+          4378
+        ],
+        [
+          149,
+          188,
+          943,
+          5318,
+          40708
+        ]
+      ]
+    },
+    {
+      "params": {
+        "metric": "euclidean",
+        "n_neighbors": 31,
+        "weights": "uniform"
+      },
+      "mean_train_score": 0.723790983060994,
+      "std_train_score": 0.00046262079624880784,
+      "mean_test_score": 0.7042887953490606,
+      "std_test_score": 0.002654431727026971,
+      "overfit_gap": 0.01950218771193335,
+      "is_overfitting": false,
+      "rank_test_score": 11,
+      "confusion_matrix": [
+        [
+          19706,
+          2225,
+          2733,
+          257,
+          152
+        ],
+        [
+          4115,
+          9891,
+          5358,
+          685,
+          210
+        ],
+        [
+          2849,
+          2787,
+          24162,
+          5612,
+          826
+        ],
+        [
+          619,
+          495,
+          5064,
+          32511,
+          4900
+        ],
+        [
+          164,
+          235,
+          1343,
+          6480,
+          39084
+        ]
+      ]
+    },
+    {
+      "params": {
+        "metric": "euclidean",
+        "n_neighbors": 31,
+        "weights": "distance"
+      },
+      "mean_train_score": 0.9922118529186971,
+      "std_train_score": 0.00017481995754241737,
+      "mean_test_score": 0.7353784266671122,
+      "std_test_score": 0.0036586224401391173,
+      "overfit_gap": 0.2568334262515849,
+      "is_overfitting": true,
+      "rank_test_score": 5,
+      "confusion_matrix": [
+        [
+          20149,
+          2030,
+          2493,
+          246,
+          155
+        ],
+        [
+          3560,
+          10853,
+          5019,
+          613,
+          214
+        ],
+        [
+          2449,
+          2419,
+          25345,
+          5264,
+          759
+        ],
+        [
+          520,
+          411,
+          4372,
+          33791,
+          4495
+        ],
+        [
+          158,
+          205,
+          1039,
+          5737,
+          40167
+        ]
+      ]
+    },
+    {
+      "params": {
+        "metric": "euclidean",
+        "n_neighbors": 63,
+        "weights": "uniform"
+      },
+      "mean_train_score": 0.6910249736181214,
+      "std_train_score": 0.0006039249864196658,
+      "mean_test_score": 0.6804861532987175,
+      "std_test_score": 0.0030304167331862888,
+      "overfit_gap": 0.010538820319403897,
+      "is_overfitting": false,
+      "rank_test_score": 13,
+      "confusion_matrix": [
+        [
+          19161,
+          2147,
+          3324,
+          320,
+          121
+        ],
+        [
+          4324,
+          9020,
+          5889,
+          807,
+          219
+        ],
+        [
+          3206,
+          2536,
+          23779,
+          5869,
+          846
+        ],
+        [
+          783,
+          482,
+          5678,
+          31473,
+          5173
+        ],
+        [
+          210,
+          257,
+          1768,
+          7042,
+          38029
+        ]
+      ]
+    },
+    {
+      "params": {
+        "metric": "euclidean",
+        "n_neighbors": 63,
+        "weights": "distance"
+      },
+      "mean_train_score": 0.9922790610890931,
+      "std_train_score": 0.00014210186334375367,
+      "mean_test_score": 0.7204379334616149,
+      "std_test_score": 0.0032613827934818047,
+      "overfit_gap": 0.27184112762747825,
+      "is_overfitting": true,
+      "rank_test_score": 10,
+      "confusion_matrix": [
+        [
+          19882,
+          1903,
+          2867,
+          278,
+          143
+        ],
+        [
+          3743,
+          10302,
+          5317,
+          688,
+          209
+        ],
+        [
+          2715,
+          2204,
+          25137,
+          5422,
+          758
+        ],
+        [
+          653,
+          404,
+          4859,
+          33018,
+          4655
+        ],
+        [
+          191,
+          209,
+          1298,
+          6168,
+          39440
+        ]
+      ]
+    },
+    {
+      "params": {
+        "metric": "euclidean",
+        "n_neighbors": 127,
+        "weights": "uniform"
+      },
+      "mean_train_score": 0.6595751214105199,
+      "std_train_score": 0.0011666809581287558,
+      "mean_test_score": 0.6532371622135734,
+      "std_test_score": 0.0018935419545355748,
+      "overfit_gap": 0.006337959196946463,
+      "is_overfitting": false,
+      "rank_test_score": 14,
+      "confusion_matrix": [
+        [
+          18599,
+          1923,
+          4084,
+          351,
+          116
+        ],
+        [
+          4412,
+          8106,
+          6638,
+          873,
+          230
+        ],
+        [
+          3578,
+          2304,
+          23271,
+          6053,
+          1030
+        ],
+        [
+          1041,
+          414,
+          6354,
+          30099,
+          5681
+        ],
+        [
+          287,
+          242,
+          2223,
+          7747,
+          36807
+        ]
+      ]
+    },
+    {
+      "params": {
+        "metric": "euclidean",
+        "n_neighbors": 127,
+        "weights": "distance"
+      },
+      "mean_train_score": 0.992278318737241,
+      "std_train_score": 0.00014190084685620493,
+      "mean_test_score": 0.7010070519930545,
+      "std_test_score": 0.0025184381835575784,
+      "overfit_gap": 0.2912712667441866,
+      "is_overfitting": true,
+      "rank_test_score": 12,
+      "confusion_matrix": [
+        [
+          19543,
+          1809,
+          3262,
+          321,
+          138
+        ],
+        [
+          3822,
+          9623,
+          5856,
+          754,
+          204
+        ],
+        [
+          3051,
+          1904,
+          24914,
+          5502,
+          865
+        ],
+        [
+          860,
+          374,
+          5480,
+          31829,
+          5046
+        ],
+        [
+          275,
+          220,
+          1617,
+          6640,
+          38554
+        ]
+      ]
+    }
+  ]
+}

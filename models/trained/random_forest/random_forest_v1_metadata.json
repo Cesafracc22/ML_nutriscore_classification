@@ -1,0 +1,38 @@
+{
+  "model_name": "RandomForest",
+  "hyperparameters": {
+    "n_estimators": 200,
+    "max_depth": 15,
+    "min_samples_split": 2,
+    "min_samples_leaf": 2,
+    "class_weight": "balanced",
+    "n_jobs": -1,
+    "random_state": 42
+  },
+  "training_history": {
+    "train_metrics": {
+      "accuracy": 0.8881847120831715
+    },
+    "val_metrics": {
+      "accuracy": 0.7928347223725511,
+      "precision_macro": 0.7718297208635635,
+      "precision_weighted": 0.7941566987804048,
+      "recall_macro": 0.7724313002143264,
+      "recall_weighted": 0.7928347223725511,
+      "f1_macro": 0.7715642991296298,
+      "f1_weighted": 0.7929735528645763
+    },
+    "test_metrics": {},
+    "cv_scores": {},
+    "training_time": 80.209664,
+    "created_at": "2026-02-17T21:50:40.369884",
+    "last_trained": "2026-02-17T21:52:00.579606"
+  },
+  "classes": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+  ]
+}

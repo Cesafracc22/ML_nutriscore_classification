@@ -1,0 +1,888 @@
+{
+  "model": "xgboost",
+  "best_score": 0.8109999999999999,
+  "best_params": {
+    "learning_rate": 0.2,
+    "max_depth": 7,
+    "min_child_weight": 3,
+    "n_estimators": 400
+  },
+  "cv_folds": 5,
+  "timestamp": "2026-02-16T09:29:58.013934",
+  "overfitting_threshold": 0.08,
+  "best_overfit_gap": 0.16159999999999997,
+  "best_is_overfitting": true,
+  "confusion_matrix_labels": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+  ],
+  "all_combinations": [
+    {
+      "params": {
+        "learning_rate": 0.05,
+        "max_depth": 3,
+        "min_child_weight": 3,
+        "n_estimators": 200
+      },
+      "mean_train_score": 0.6718000000000001,
+      "std_train_score": 0.00040000000000000034,
+      "mean_test_score": 0.667,
+      "std_test_score": 0.002097617696340305,
+      "overfit_gap": 0.0048000000000000265,
+      "is_overfitting": false,
+      "confusion_matrix": null,
+      "rank_test_score": 53
+    },
+    {
+      "params": {
+        "learning_rate": 0.05,
+        "max_depth": 3,
+        "min_child_weight": 3,
+        "n_estimators": 300
+      },
+      "mean_train_score": 0.6936,
+      "std_train_score": 0.0004898979485566361,
+      "mean_test_score": 0.6868000000000001,
+      "std_test_score": 0.001720465053408483,
+      "overfit_gap": 0.006799999999999917,
+      "is_overfitting": false,
+      "confusion_matrix": null,
+      "rank_test_score": 51
+    },
+    {
+      "params": {
+        "learning_rate": 0.05,
+        "max_depth": 3,
+        "min_child_weight": 3,
+        "n_estimators": 400
+      },
+      "mean_train_score": 0.7083999999999999,
+      "std_train_score": 0.0008000000000000007,
+      "mean_test_score": 0.7,
+      "std_test_score": 0.0016733200530681528,
+      "overfit_gap": 0.008399999999999963,
+      "is_overfitting": false,
+      "confusion_matrix": null,
+      "rank_test_score": 49
+    },
+    {
+      "params": {
+        "learning_rate": 0.05,
+        "max_depth": 3,
+        "min_child_weight": 5,
+        "n_estimators": 200
+      },
+      "mean_train_score": 0.6714000000000001,
+      "std_train_score": 0.0008000000000000007,
+      "mean_test_score": 0.6666000000000001,
+      "std_test_score": 0.0029393876913398165,
+      "overfit_gap": 0.0048000000000000265,
+      "is_overfitting": false,
+      "confusion_matrix": null,
+      "rank_test_score": 54
+    },
+    {
+      "params": {
+        "learning_rate": 0.05,
+        "max_depth": 3,
+        "min_child_weight": 5,
+        "n_estimators": 300
+      },
+      "mean_train_score": 0.6938,
+      "std_train_score": 0.000979795897113272,
+      "mean_test_score": 0.6866,
+      "std_test_score": 0.0016248076809271417,
+      "overfit_gap": 0.007199999999999984,
+      "is_overfitting": false,
+      "confusion_matrix": null,
+      "rank_test_score": 52
+    },
+    {
+      "params": {
+        "learning_rate": 0.05,
+        "max_depth": 3,
+        "min_child_weight": 5,
+        "n_estimators": 400
+      },
+      "mean_train_score": 0.7083999999999999,
+      "std_train_score": 0.0010198039027185578,
+      "mean_test_score": 0.6998,
+      "std_test_score": 0.0011661903789690613,
+      "overfit_gap": 0.008599999999999941,
+      "is_overfitting": false,
+      "confusion_matrix": null,
+      "rank_test_score": 50
+    },
+    {
+      "params": {
+        "learning_rate": 0.05,
+        "max_depth": 6,
+        "min_child_weight": 3,
+        "n_estimators": 200
+      },
+      "mean_train_score": 0.7727999999999999,
+      "std_train_score": 0.0011661903789690613,
+      "mean_test_score": 0.7460000000000001,
+      "std_test_score": 0.002280350850198278,
+      "overfit_gap": 0.026799999999999824,
+      "is_overfitting": false,
+      "confusion_matrix": null,
+      "rank_test_score": 37
+    },
+    {
+      "params": {
+        "learning_rate": 0.05,
+        "max_depth": 6,
+        "min_child_weight": 3,
+        "n_estimators": 300
+      },
+      "mean_train_score": 0.8032,
+      "std_train_score": 0.001166190378969061,
+      "mean_test_score": 0.7638,
+      "std_test_score": 0.002227105745132011,
+      "overfit_gap": 0.03939999999999999,
+      "is_overfitting": false,
+      "confusion_matrix": null,
+      "rank_test_score": 32
+    },
+    {
+      "params": {
+        "learning_rate": 0.05,
+        "max_depth": 6,
+        "min_child_weight": 3,
+        "n_estimators": 400
+      },
+      "mean_train_score": 0.8257999999999999,
+      "std_train_score": 0.000979795897113272,
+      "mean_test_score": 0.7752,
+      "std_test_score": 0.002785677655436826,
+      "overfit_gap": 0.05059999999999987,
+      "is_overfitting": false,
+      "confusion_matrix": null,
+      "rank_test_score": 27
+    },
+    {
+      "params": {
+        "learning_rate": 0.05,
+        "max_depth": 6,
+        "min_child_weight": 5,
+        "n_estimators": 200
+      },
+      "mean_train_score": 0.7722,
+      "std_train_score": 0.0007483314773547889,
+      "mean_test_score": 0.7458,
+      "std_test_score": 0.0018330302779823377,
+      "overfit_gap": 0.02639999999999998,
+      "is_overfitting": false,
+      "confusion_matrix": null,
+      "rank_test_score": 38
+    },
+    {
+      "params": {
+        "learning_rate": 0.05,
+        "max_depth": 6,
+        "min_child_weight": 5,
+        "n_estimators": 300
+      },
+      "mean_train_score": 0.8019999999999999,
+      "std_train_score": 0.001095445115010333,
+      "mean_test_score": 0.7638,
+      "std_test_score": 0.00271293199325011,
+      "overfit_gap": 0.0381999999999999,
+      "is_overfitting": false,
+      "confusion_matrix": null,
+      "rank_test_score": 33
+    },
+    {
+      "params": {
+        "learning_rate": 0.05,
+        "max_depth": 6,
+        "min_child_weight": 5,
+        "n_estimators": 400
+      },
+      "mean_train_score": 0.8244,
+      "std_train_score": 0.0008000000000000007,
+      "mean_test_score": 0.775,
+      "std_test_score": 0.0026076809620810618,
+      "overfit_gap": 0.0494,
+      "is_overfitting": false,
+      "confusion_matrix": null,
+      "rank_test_score": 28
+    },
+    {
+      "params": {
+        "learning_rate": 0.05,
+        "max_depth": 7,
+        "min_child_weight": 3,
+        "n_estimators": 200
+      },
+      "mean_train_score": 0.808,
+      "std_train_score": 0.0016733200530681526,
+      "mean_test_score": 0.764,
+      "std_test_score": 0.0029664793948382677,
+      "overfit_gap": 0.04400000000000004,
+      "is_overfitting": false,
+      "confusion_matrix": null,
+      "rank_test_score": 31
+    },
+    {
+      "params": {
+        "learning_rate": 0.05,
+        "max_depth": 7,
+        "min_child_weight": 3,
+        "n_estimators": 300
+      },
+      "mean_train_score": 0.844,
+      "std_train_score": 0.0010954451150103333,
+      "mean_test_score": 0.781,
+      "std_test_score": 0.0028982753492378904,
+      "overfit_gap": 0.06299999999999994,
+      "is_overfitting": false,
+      "confusion_matrix": null,
+      "rank_test_score": 25
+    },
+    {
+      "params": {
+        "learning_rate": 0.05,
+        "max_depth": 7,
+        "min_child_weight": 3,
+        "n_estimators": 400
+      },
+      "mean_train_score": 0.8699999999999999,
+      "std_train_score": 0.001095445115010333,
+      "mean_test_score": 0.7902,
+      "std_test_score": 0.002785677655436826,
+      "overfit_gap": 0.07979999999999987,
+      "is_overfitting": false,
+      "confusion_matrix": null,
+      "rank_test_score": 20
+    },
+    {
+      "params": {
+        "learning_rate": 0.05,
+        "max_depth": 7,
+        "min_child_weight": 5,
+        "n_estimators": 200
+      },
+      "mean_train_score": 0.8062000000000001,
+      "std_train_score": 0.0016000000000000012,
+      "mean_test_score": 0.7636000000000001,
+      "std_test_score": 0.002870540018881467,
+      "overfit_gap": 0.04260000000000008,
+      "is_overfitting": false,
+      "confusion_matrix": null,
+      "rank_test_score": 34
+    },
+    {
+      "params": {
+        "learning_rate": 0.05,
+        "max_depth": 7,
+        "min_child_weight": 5,
+        "n_estimators": 300
+      },
+      "mean_train_score": 0.8413999999999999,
+      "std_train_score": 0.0008000000000000007,
+      "mean_test_score": 0.7804,
+      "std_test_score": 0.0029393876913398165,
+      "overfit_gap": 0.06099999999999994,
+      "is_overfitting": false,
+      "confusion_matrix": null,
+      "rank_test_score": 26
+    },
+    {
+      "params": {
+        "learning_rate": 0.05,
+        "max_depth": 7,
+        "min_child_weight": 5,
+        "n_estimators": 400
+      },
+      "mean_train_score": 0.8667999999999999,
+      "std_train_score": 0.000979795897113272,
+      "mean_test_score": 0.7908000000000001,
+      "std_test_score": 0.0031240998703626643,
+      "overfit_gap": 0.07599999999999985,
+      "is_overfitting": false,
+      "confusion_matrix": null,
+      "rank_test_score": 19
+    },
+    {
+      "params": {
+        "learning_rate": 0.1,
+        "max_depth": 3,
+        "min_child_weight": 3,
+        "n_estimators": 200
+      },
+      "mean_train_score": 0.7087999999999999,
+      "std_train_score": 0.0011661903789690613,
+      "mean_test_score": 0.7007999999999999,
+      "std_test_score": 0.0014696938456699082,
+      "overfit_gap": 0.008000000000000007,
+      "is_overfitting": false,
+      "confusion_matrix": null,
+      "rank_test_score": 48
+    },
+    {
+      "params": {
+        "learning_rate": 0.1,
+        "max_depth": 3,
+        "min_child_weight": 3,
+        "n_estimators": 300
+      },
+      "mean_train_score": 0.729,
+      "std_train_score": 0.0008944271909999167,
+      "mean_test_score": 0.7179999999999999,
+      "std_test_score": 0.002097617696340305,
+      "overfit_gap": 0.01100000000000012,
+      "is_overfitting": false,
+      "confusion_matrix": null,
+      "rank_test_score": 45
+    },
+    {
+      "params": {
+        "learning_rate": 0.1,
+        "max_depth": 3,
+        "min_child_weight": 3,
+        "n_estimators": 400
+      },
+      "mean_train_score": 0.7438,
+      "std_train_score": 0.001166190378969061,
+      "mean_test_score": 0.7295999999999999,
+      "std_test_score": 0.0025768197453450276,
+      "overfit_gap": 0.014200000000000101,
+      "is_overfitting": false,
+      "confusion_matrix": null,
+      "rank_test_score": 44
+    },
+    {
+      "params": {
+        "learning_rate": 0.1,
+        "max_depth": 3,
+        "min_child_weight": 5,
+        "n_estimators": 200
+      },
+      "mean_train_score": 0.7091999999999999,
+      "std_train_score": 0.00040000000000000034,
+      "mean_test_score": 0.7013999999999999,
+      "std_test_score": 0.001959591794226544,
+      "overfit_gap": 0.007800000000000029,
+      "is_overfitting": false,
+      "confusion_matrix": null,
+      "rank_test_score": 47
+    },
+    {
+      "params": {
+        "learning_rate": 0.1,
+        "max_depth": 3,
+        "min_child_weight": 5,
+        "n_estimators": 300
+      },
+      "mean_train_score": 0.7293999999999998,
+      "std_train_score": 0.001019803902718558,
+      "mean_test_score": 0.7178000000000001,
+      "std_test_score": 0.0023151673805580472,
+      "overfit_gap": 0.011599999999999722,
+      "is_overfitting": false,
+      "confusion_matrix": null,
+      "rank_test_score": 46
+    },
+    {
+      "params": {
+        "learning_rate": 0.1,
+        "max_depth": 3,
+        "min_child_weight": 5,
+        "n_estimators": 400
+      },
+      "mean_train_score": 0.7436,
+      "std_train_score": 0.0004898979485566361,
+      "mean_test_score": 0.7298,
+      "std_test_score": 0.00271293199325011,
+      "overfit_gap": 0.013800000000000034,
+      "is_overfitting": false,
+      "confusion_matrix": null,
+      "rank_test_score": 43
+    },
+    {
+      "params": {
+        "learning_rate": 0.1,
+        "max_depth": 6,
+        "min_child_weight": 3,
+        "n_estimators": 200
+      },
+      "mean_train_score": 0.8263999999999999,
+      "std_train_score": 0.0012000000000000012,
+      "mean_test_score": 0.774,
+      "std_test_score": 0.0023664319132398483,
+      "overfit_gap": 0.05239999999999989,
+      "is_overfitting": false,
+      "confusion_matrix": null,
+      "rank_test_score": 29
+    },
+    {
+      "params": {
+        "learning_rate": 0.1,
+        "max_depth": 6,
+        "min_child_weight": 3,
+        "n_estimators": 300
+      },
+      "mean_train_score": 0.8588000000000001,
+      "std_train_score": 0.001166190378969061,
+      "mean_test_score": 0.788,
+      "std_test_score": 0.0025298221281347057,
+      "overfit_gap": 0.07080000000000009,
+      "is_overfitting": false,
+      "confusion_matrix": null,
+      "rank_test_score": 23
+    },
+    {
+      "params": {
+        "learning_rate": 0.1,
+        "max_depth": 6,
+        "min_child_weight": 3,
+        "n_estimators": 400
+      },
+      "mean_train_score": 0.882,
+      "std_train_score": 0.0008944271909999167,
+      "mean_test_score": 0.7958000000000001,
+      "std_test_score": 0.00271293199325011,
+      "overfit_gap": 0.08619999999999994,
+      "is_overfitting": true,
+      "confusion_matrix": null,
+      "rank_test_score": 15
+    },
+    {
+      "params": {
+        "learning_rate": 0.1,
+        "max_depth": 6,
+        "min_child_weight": 5,
+        "n_estimators": 200
+      },
+      "mean_train_score": 0.8246,
+      "std_train_score": 0.001019803902718558,
+      "mean_test_score": 0.774,
+      "std_test_score": 0.002280350850198278,
+      "overfit_gap": 0.05059999999999998,
+      "is_overfitting": false,
+      "confusion_matrix": null,
+      "rank_test_score": 30
+    },
+    {
+      "params": {
+        "learning_rate": 0.1,
+        "max_depth": 6,
+        "min_child_weight": 5,
+        "n_estimators": 300
+      },
+      "mean_train_score": 0.8562,
+      "std_train_score": 0.000979795897113272,
+      "mean_test_score": 0.7878000000000001,
+      "std_test_score": 0.0023151673805580472,
+      "overfit_gap": 0.0683999999999999,
+      "is_overfitting": false,
+      "confusion_matrix": null,
+      "rank_test_score": 24
+    },
+    {
+      "params": {
+        "learning_rate": 0.1,
+        "max_depth": 6,
+        "min_child_weight": 5,
+        "n_estimators": 400
+      },
+      "mean_train_score": 0.8792,
+      "std_train_score": 0.0007483314773547889,
+      "mean_test_score": 0.7956000000000001,
+      "std_test_score": 0.0021540659228538035,
+      "overfit_gap": 0.0835999999999999,
+      "is_overfitting": true,
+      "confusion_matrix": null,
+      "rank_test_score": 16
+    },
+    {
+      "params": {
+        "learning_rate": 0.1,
+        "max_depth": 7,
+        "min_child_weight": 3,
+        "n_estimators": 200
+      },
+      "mean_train_score": 0.8698,
+      "std_train_score": 0.000979795897113272,
+      "mean_test_score": 0.79,
+      "std_test_score": 0.0029664793948382677,
+      "overfit_gap": 0.07979999999999998,
+      "is_overfitting": false,
+      "confusion_matrix": null,
+      "rank_test_score": 21
+    },
+    {
+      "params": {
+        "learning_rate": 0.1,
+        "max_depth": 7,
+        "min_child_weight": 3,
+        "n_estimators": 300
+      },
+      "mean_train_score": 0.9048,
+      "std_train_score": 0.000979795897113272,
+      "mean_test_score": 0.8002,
+      "std_test_score": 0.0034871191548325416,
+      "overfit_gap": 0.10460000000000003,
+      "is_overfitting": true,
+      "confusion_matrix": null,
+      "rank_test_score": 13
+    },
+    {
+      "params": {
+        "learning_rate": 0.1,
+        "max_depth": 7,
+        "min_child_weight": 3,
+        "n_estimators": 400
+      },
+      "mean_train_score": 0.9279999999999999,
+      "std_train_score": 0.0006324555320336764,
+      "mean_test_score": 0.8051999999999999,
+      "std_test_score": 0.003867815921162747,
+      "overfit_gap": 0.12280000000000002,
+      "is_overfitting": true,
+      "confusion_matrix": null,
+      "rank_test_score": 8
+    },
+    {
+      "params": {
+        "learning_rate": 0.1,
+        "max_depth": 7,
+        "min_child_weight": 5,
+        "n_estimators": 200
+      },
+      "mean_train_score": 0.866,
+      "std_train_score": 0.0010954451150103333,
+      "mean_test_score": 0.7898,
+      "std_test_score": 0.0027129319932501094,
+      "overfit_gap": 0.07620000000000005,
+      "is_overfitting": false,
+      "confusion_matrix": null,
+      "rank_test_score": 22
+    },
+    {
+      "params": {
+        "learning_rate": 0.1,
+        "max_depth": 7,
+        "min_child_weight": 5,
+        "n_estimators": 300
+      },
+      "mean_train_score": 0.9004,
+      "std_train_score": 0.0008000000000000007,
+      "mean_test_score": 0.8002,
+      "std_test_score": 0.00271293199325011,
+      "overfit_gap": 0.10019999999999996,
+      "is_overfitting": true,
+      "confusion_matrix": null,
+      "rank_test_score": 14
+    },
+    {
+      "params": {
+        "learning_rate": 0.1,
+        "max_depth": 7,
+        "min_child_weight": 5,
+        "n_estimators": 400
+      },
+      "mean_train_score": 0.924,
+      "std_train_score": 0.0,
+      "mean_test_score": 0.8051999999999999,
+      "std_test_score": 0.0031240998703626643,
+      "overfit_gap": 0.11880000000000013,
+      "is_overfitting": true,
+      "confusion_matrix": null,
+      "rank_test_score": 7
+    },
+    {
+      "params": {
+        "learning_rate": 0.2,
+        "max_depth": 3,
+        "min_child_weight": 3,
+        "n_estimators": 200
+      },
+      "mean_train_score": 0.7445999999999999,
+      "std_train_score": 0.0013564659966250547,
+      "mean_test_score": 0.7304,
+      "std_test_score": 0.0021540659228538035,
+      "overfit_gap": 0.01419999999999988,
+      "is_overfitting": false,
+      "confusion_matrix": null,
+      "rank_test_score": 41
+    },
+    {
+      "params": {
+        "learning_rate": 0.2,
+        "max_depth": 3,
+        "min_child_weight": 3,
+        "n_estimators": 300
+      },
+      "mean_train_score": 0.7647999999999999,
+      "std_train_score": 0.001166190378969061,
+      "mean_test_score": 0.7455999999999999,
+      "std_test_score": 0.0019595917942265445,
+      "overfit_gap": 0.019199999999999995,
+      "is_overfitting": false,
+      "confusion_matrix": null,
+      "rank_test_score": 39
+    },
+    {
+      "params": {
+        "learning_rate": 0.2,
+        "max_depth": 3,
+        "min_child_weight": 3,
+        "n_estimators": 400
+      },
+      "mean_train_score": 0.7796000000000001,
+      "std_train_score": 0.001019803902718558,
+      "mean_test_score": 0.7554000000000001,
+      "std_test_score": 0.002244994432064367,
+      "overfit_gap": 0.0242,
+      "is_overfitting": false,
+      "confusion_matrix": null,
+      "rank_test_score": 35
+    },
+    {
+      "params": {
+        "learning_rate": 0.2,
+        "max_depth": 3,
+        "min_child_weight": 5,
+        "n_estimators": 200
+      },
+      "mean_train_score": 0.7444,
+      "std_train_score": 0.001019803902718558,
+      "mean_test_score": 0.7300000000000001,
+      "std_test_score": 0.00268328157299975,
+      "overfit_gap": 0.014399999999999857,
+      "is_overfitting": false,
+      "confusion_matrix": null,
+      "rank_test_score": 42
+    },
+    {
+      "params": {
+        "learning_rate": 0.2,
+        "max_depth": 3,
+        "min_child_weight": 5,
+        "n_estimators": 300
+      },
+      "mean_train_score": 0.7642,
+      "std_train_score": 0.0007483314773547889,
+      "mean_test_score": 0.7454,
+      "std_test_score": 0.0021540659228538035,
+      "overfit_gap": 0.01880000000000004,
+      "is_overfitting": false,
+      "confusion_matrix": null,
+      "rank_test_score": 40
+    },
+    {
+      "params": {
+        "learning_rate": 0.2,
+        "max_depth": 3,
+        "min_child_weight": 5,
+        "n_estimators": 400
+      },
+      "mean_train_score": 0.7796000000000001,
+      "std_train_score": 0.001019803902718558,
+      "mean_test_score": 0.7552,
+      "std_test_score": 0.0021354156504062643,
+      "overfit_gap": 0.02440000000000009,
+      "is_overfitting": false,
+      "confusion_matrix": null,
+      "rank_test_score": 36
+    },
+    {
+      "params": {
+        "learning_rate": 0.2,
+        "max_depth": 6,
+        "min_child_weight": 3,
+        "n_estimators": 200
+      },
+      "mean_train_score": 0.8812,
+      "std_train_score": 0.0007483314773547889,
+      "mean_test_score": 0.7950000000000002,
+      "std_test_score": 0.003346640106136305,
+      "overfit_gap": 0.08619999999999983,
+      "is_overfitting": true,
+      "confusion_matrix": null,
+      "rank_test_score": 17
+    },
+    {
+      "params": {
+        "learning_rate": 0.2,
+        "max_depth": 6,
+        "min_child_weight": 3,
+        "n_estimators": 300
+      },
+      "mean_train_score": 0.9138000000000002,
+      "std_train_score": 0.0007483314773547889,
+      "mean_test_score": 0.8026,
+      "std_test_score": 0.003929376540877704,
+      "overfit_gap": 0.11120000000000019,
+      "is_overfitting": true,
+      "confusion_matrix": null,
+      "rank_test_score": 11
+    },
+    {
+      "params": {
+        "learning_rate": 0.2,
+        "max_depth": 6,
+        "min_child_weight": 3,
+        "n_estimators": 400
+      },
+      "mean_train_score": 0.9369999999999999,
+      "std_train_score": 0.0008944271909998671,
+      "mean_test_score": 0.8068,
+      "std_test_score": 0.003919183588453089,
+      "overfit_gap": 0.13019999999999998,
+      "is_overfitting": true,
+      "confusion_matrix": null,
+      "rank_test_score": 5
+    },
+    {
+      "params": {
+        "learning_rate": 0.2,
+        "max_depth": 6,
+        "min_child_weight": 5,
+        "n_estimators": 200
+      },
+      "mean_train_score": 0.8780000000000001,
+      "std_train_score": 0.0006324555320336764,
+      "mean_test_score": 0.7946,
+      "std_test_score": 0.003261901286060021,
+      "overfit_gap": 0.08340000000000014,
+      "is_overfitting": true,
+      "confusion_matrix": null,
+      "rank_test_score": 18
+    },
+    {
+      "params": {
+        "learning_rate": 0.2,
+        "max_depth": 6,
+        "min_child_weight": 5,
+        "n_estimators": 300
+      },
+      "mean_train_score": 0.9106000000000002,
+      "std_train_score": 0.000489897948556636,
+      "mean_test_score": 0.8024000000000001,
+      "std_test_score": 0.0033823069050575557,
+      "overfit_gap": 0.10820000000000007,
+      "is_overfitting": true,
+      "confusion_matrix": null,
+      "rank_test_score": 12
+    },
+    {
+      "params": {
+        "learning_rate": 0.2,
+        "max_depth": 6,
+        "min_child_weight": 5,
+        "n_estimators": 400
+      },
+      "mean_train_score": 0.9336,
+      "std_train_score": 0.000489897948556636,
+      "mean_test_score": 0.8066000000000001,
+      "std_test_score": 0.0032000000000000028,
+      "overfit_gap": 0.1269999999999999,
+      "is_overfitting": true,
+      "confusion_matrix": null,
+      "rank_test_score": 6
+    },
+    {
+      "params": {
+        "learning_rate": 0.2,
+        "max_depth": 7,
+        "min_child_weight": 3,
+        "n_estimators": 200
+      },
+      "mean_train_score": 0.9278000000000001,
+      "std_train_score": 0.000979795897113272,
+      "mean_test_score": 0.8038000000000001,
+      "std_test_score": 0.0031874754901018484,
+      "overfit_gap": 0.124,
+      "is_overfitting": true,
+      "confusion_matrix": null,
+      "rank_test_score": 9
+    },
+    {
+      "params": {
+        "learning_rate": 0.2,
+        "max_depth": 7,
+        "min_child_weight": 3,
+        "n_estimators": 300
+      },
+      "mean_train_score": 0.9568,
+      "std_train_score": 0.000979795897113272,
+      "mean_test_score": 0.8092,
+      "std_test_score": 0.0027129319932500786,
+      "overfit_gap": 0.14759999999999995,
+      "is_overfitting": true,
+      "confusion_matrix": null,
+      "rank_test_score": 3
+    },
+    {
+      "params": {
+        "learning_rate": 0.2,
+        "max_depth": 7,
+        "min_child_weight": 3,
+        "n_estimators": 400
+      },
+      "mean_train_score": 0.9725999999999999,
+      "std_train_score": 0.000489897948556636,
+      "mean_test_score": 0.8109999999999999,
+      "std_test_score": 0.0028982753492378366,
+      "overfit_gap": 0.16159999999999997,
+      "is_overfitting": true,
+      "confusion_matrix": null,
+      "rank_test_score": 1
+    },
+    {
+      "params": {
+        "learning_rate": 0.2,
+        "max_depth": 7,
+        "min_child_weight": 5,
+        "n_estimators": 200
+      },
+      "mean_train_score": 0.9228000000000002,
+      "std_train_score": 0.0007483314773547889,
+      "mean_test_score": 0.8036000000000001,
+      "std_test_score": 0.0033823069050575557,
+      "overfit_gap": 0.11920000000000008,
+      "is_overfitting": true,
+      "confusion_matrix": null,
+      "rank_test_score": 10
+    },
+    {
+      "params": {
+        "learning_rate": 0.2,
+        "max_depth": 7,
+        "min_child_weight": 5,
+        "n_estimators": 300
+      },
+      "mean_train_score": 0.953,
+      "std_train_score": 0.0006324555320336764,
+      "mean_test_score": 0.8084,
+      "std_test_score": 0.0034985711369071477,
+      "overfit_gap": 0.14459999999999995,
+      "is_overfitting": true,
+      "confusion_matrix": null,
+      "rank_test_score": 4
+    },
+    {
+      "params": {
+        "learning_rate": 0.2,
+        "max_depth": 7,
+        "min_child_weight": 5,
+        "n_estimators": 400
+      },
+      "mean_train_score": 0.969,
+      "std_train_score": 0.0,
+      "mean_test_score": 0.8109999999999999,
+      "std_test_score": 0.0037416573867738914,
+      "overfit_gap": 0.15800000000000003,
+      "is_overfitting": true,
+      "confusion_matrix": null,
+      "rank_test_score": 2
+    }
+  ]
+}

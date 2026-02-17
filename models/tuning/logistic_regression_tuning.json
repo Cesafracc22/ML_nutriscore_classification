@@ -1,0 +1,227 @@
+{
+  "model": "logistic_regression",
+  "best_score": 0.689638570619546,
+  "best_params": {
+    "C": 10.0,
+    "class_weight": "balanced",
+    "solver": "lbfgs"
+  },
+  "cv_folds": 5,
+  "timestamp": "2026-02-12T11:42:41.791857",
+  "overfitting_threshold": 0.05,
+  "best_overfit_gap": 0.0005900419213169528,
+  "best_is_overfitting": false,
+  "confusion_matrix_labels": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+  ],
+  "all_combinations": [
+    {
+      "params": {
+        "C": 0.01,
+        "class_weight": "balanced",
+        "solver": "lbfgs"
+      },
+      "mean_train_score": 0.6715145453458625,
+      "std_train_score": 0.0010594116483920732,
+      "mean_test_score": 0.6708875812971004,
+      "std_test_score": 0.0019359470444673982,
+      "overfit_gap": 0.0006269640487621686,
+      "is_overfitting": false,
+      "rank_test_score": 4,
+      "confusion_matrix": [
+        [
+          18954,
+          4440,
+          1636,
+          31,
+          12
+        ],
+        [
+          4953,
+          10799,
+          3721,
+          422,
+          364
+        ],
+        [
+          2021,
+          6883,
+          21349,
+          5327,
+          656
+        ],
+        [
+          316,
+          1221,
+          6717,
+          29856,
+          5479
+        ],
+        [
+          120,
+          916,
+          2395,
+          5383,
+          38492
+        ]
+      ]
+    },
+    {
+      "params": {
+        "C": 0.1,
+        "class_weight": "balanced",
+        "solver": "lbfgs"
+      },
+      "mean_train_score": 0.6880149651482231,
+      "std_train_score": 0.0010337070047763998,
+      "mean_test_score": 0.6875708959431152,
+      "std_test_score": 0.0022660423793840296,
+      "overfit_gap": 0.00044406920510797754,
+      "is_overfitting": false,
+      "rank_test_score": 3,
+      "confusion_matrix": [
+        [
+          19066,
+          4397,
+          1576,
+          22,
+          12
+        ],
+        [
+          4592,
+          11297,
+          3660,
+          348,
+          362
+        ],
+        [
+          1833,
+          6736,
+          22160,
+          4834,
+          673
+        ],
+        [
+          293,
+          1211,
+          6044,
+          30992,
+          5049
+        ],
+        [
+          152,
+          889,
+          2232,
+          5290,
+          38743
+        ]
+      ]
+    },
+    {
+      "params": {
+        "C": 1.0,
+        "class_weight": "balanced",
+        "solver": "lbfgs"
+      },
+      "mean_train_score": 0.690034051482008,
+      "std_train_score": 0.000878204239108544,
+      "mean_test_score": 0.6895730855536847,
+      "std_test_score": 0.0019451383550364541,
+      "overfit_gap": 0.0004609659283233425,
+      "is_overfitting": false,
+      "rank_test_score": 2,
+      "confusion_matrix": [
+        [
+          19047,
+          4425,
+          1566,
+          23,
+          12
+        ],
+        [
+          4532,
+          11384,
+          3640,
+          338,
+          365
+        ],
+        [
+          1804,
+          6756,
+          22229,
+          4774,
+          673
+        ],
+        [
+          289,
+          1223,
+          5939,
+          31176,
+          4962
+        ],
+        [
+          160,
+          877,
+          2221,
+          5290,
+          38758
+        ]
+      ]
+    },
+    {
+      "params": {
+        "C": 10.0,
+        "class_weight": "balanced",
+        "solver": "lbfgs"
+      },
+      "mean_train_score": 0.690228612540863,
+      "std_train_score": 0.0009352948836666104,
+      "mean_test_score": 0.689638570619546,
+      "std_test_score": 0.0018968447763729104,
+      "overfit_gap": 0.0005900419213169528,
+      "is_overfitting": false,
+      "rank_test_score": 1,
+      "confusion_matrix": [
+        [
+          19043,
+          4426,
+          1569,
+          23,
+          12
+        ],
+        [
+          4520,
+          11390,
+          3649,
+          335,
+          365
+        ],
+        [
+          1793,
+          6771,
+          22221,
+          4777,
+          674
+        ],
+        [
+          289,
+          1224,
+          5926,
+          31191,
+          4959
+        ],
+        [
+          161,
+          873,
+          2224,
+          5291,
+          38757
+        ]
+      ]
+    }
+  ]
+}

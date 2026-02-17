@@ -1,0 +1,51 @@
+{
+  "model_name": "XGBoost",
+  "hyperparameters": {
+    "n_estimators": 200,
+    "max_depth": 6,
+    "learning_rate": 0.1,
+    "subsample": 1.0,
+    "colsample_bytree": 0.8,
+    "reg_alpha": 0.1,
+    "reg_lambda": 1.0,
+    "min_child_weight": 3,
+    "objective": "multi:softprob",
+    "eval_metric": "mlogloss",
+    "random_state": 42,
+    "n_jobs": -1
+  },
+  "training_history": {
+    "train_metrics": {
+      "accuracy": 0.8377339455924302
+    },
+    "val_metrics": {
+      "accuracy": 0.8033496577288347,
+      "precision_macro": 0.7860665151073768,
+      "precision_weighted": 0.8028209178623303,
+      "recall_macro": 0.774627341717366,
+      "recall_weighted": 0.8033496577288347,
+      "f1_macro": 0.7774112615813493,
+      "f1_weighted": 0.801189999383134
+    },
+    "test_metrics": {
+      "accuracy": 0.8037878787878788,
+      "precision_macro": 0.7889786078129413,
+      "precision_weighted": 0.8033890026288211,
+      "recall_macro": 0.7765640919585786,
+      "recall_weighted": 0.8037878787878788,
+      "f1_macro": 0.779775826134182,
+      "f1_weighted": 0.8016792676776877
+    },
+    "cv_scores": {},
+    "training_time": 4.468281,
+    "created_at": "2026-02-17T21:00:24.135032",
+    "last_trained": "2026-02-17T21:00:28.603355"
+  },
+  "classes": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+  ]
+}
